@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title>Jeg ser døde mennesker</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/f023dd87f9.js" crossorigin="anonymous"></script>
+    </head>
+    
+    
+
+    <body>
+        <header>
+            
+            <img src="billeder/Asset 1.png" class="profile-img">
+            <li><a href="#Trailer">Trailer</a></li>
+            <li><a href="#about">Skuespillerne</a></li>
+            <li><a href="#contact">Kontakt</a></li>
+    </div>
+  </div>
+        </header>
+        <main>
+
+           
+
+            <section id="Trailer">
+                <div class="section-inner">
+
+                    <video controls width="960" height="540" >
+                <source src="Jeg ser døde mennesker (ny).mp4">
+            </video>
+
+                    <h1>Jeg ser døde mennesker</h1>
+                </div>
+            </section>
+                
+            
+            </div>
+
+            <section id="Skuespillerne">
+
+            <h2 style="text-align:center">Skuespillerne</h2>
+        </section>
+
+            <section id="about">
+
+                
+
+                <!--image slider start-->
+                <section id= "slider">
+                    <div class="slider">
+                        <div class="slides">
+                          <!--radio buttons start-->
+                          <input type="radio" name="radio-btn" id="radio1">
+                          <input type="radio" name="radio-btn" id="radio2">
+                          <input type="radio" name="radio-btn" id="radio3">
+                          <input type="radio" name="radio-btn" id="radio4">
+                          <input type="radio" name="radio-btn" id="radio5">
+                          <!--radio buttons end-->
+                          <!--slide images start-->
+                          <div class="slide first">
+                            <img src="billeder/fb6f05398ce99687ea436bbfbfb6b16e.jpg" alt="">
+                            
+                          </div>
+                          <div class="slide">
+                            <img src="billeder/fb6f05398ce99687ea436bbfbfb6b16e.jpg" alt="">
+                          </div>
+                          <div class="slide">
+                            <img src="billeder/fb6f05398ce99687ea436bbfbfb6b16e.jpg" alt="">
+                          </div>
+                          <div class="slide">
+                            <img src="billeder/fb6f05398ce99687ea436bbfbfb6b16e.jpg" alt="">
+                          </div>
+                          <div class="slide">
+                            <img src="billeder/fb6f05398ce99687ea436bbfbfb6b16e.jpg" alt="">
+                          </div>
+                          <div class="slide">
+                            <img src="billeder/fb6f05398ce99687ea436bbfbfb6b16e.jpg" alt="">
+                          </div>
+                          <!--slide images end-->
+                          <!--automatic navigation start-->
+                          <div class="navigation-auto">
+                            <div class="auto-btn1"></div>
+                            <div class="auto-btn2"></div>
+                            <div class="auto-btn3"></div>
+                            <div class="auto-btn4"></div>
+                            <div class="auto-btn5"></div>
+                          </div>
+                          <!--automatic navigation end-->
+                        </div>
+                        <!--manual navigation start-->
+                        <div class="navigation-manual">
+                          <label for="radio1" class="manual-btn"></label>
+                          <label for="radio2" class="manual-btn"></label>
+                          <label for="radio3" class="manual-btn"></label>
+                          <label for="radio4" class="manual-btn"></label>
+                          <label for="radio5" class="manual-btn"></label>
+                        </div>
+                        <!--manual navigation end-->
+                      </div>
+                      <!--image slider end-->
+                    </section>
+                  
+                      <script type="text/javascript">
+                      var counter = 1;
+                      setInterval(function(){
+                        document.getElementById('radio' + counter).checked = true;
+                        counter++;
+                        if(counter > 4){
+                          counter = 1;
+                        }
+                      }, 5000);
+                      </script>
+
+                <div class="section-inner">
+                    
+                    
+                </div>
+            </section>
+            <section id="contact">
+                <div class="section-inner">
+                    <div class="fcf-body">
+
+                        <div id="fcf-form">
+                        <h3 class="fcf-h3">Kontakt os</h3>
+                    
+                        <form id="fcf-form-id" class="fcf-form-class" method="post" action="contact-form-process.php">
+                            
+                            <div class="fcf-form-group">
+                                <label for="Name" class="fcf-label">Dit navn</label>
+                                <div class="fcf-input-group">
+                                    <input type="text" id="Name" name="Name" class="fcf-form-control" required>
+                                </div>
+                            </div>
+                    
+                            <div class="fcf-form-group">
+                                <label for="Email" class="fcf-label">Din Email</label>
+                                <div class="fcf-input-group">
+                                    <input type="email" id="Email" name="Email" class="fcf-form-control" required>
+                                </div>
+                            </div>
+                    
+                            <div class="fcf-form-group">
+                                <label for="Message" class="fcf-label">Din besked</label>
+                                <div class="fcf-input-group">
+                                    <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
+                                </div>
+                            </div>
+                    
+                            <div class="fcf-form-group">
+                                <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Send besked</button>
+                            </div>
+                    
+                            </div>
+                    
+                        </form>
+                        </div>
+                    
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            © Copyright HTM Studio
+            <p>   </p>
+            <a href="#" class="w3-button w3-black w3-margin"><i class="fa fa-arrow-up w3-margin-right"></i>Til toppen</a>
+            <div class="w3-xlarge w3-section">
+              <i class="fa fa-facebook-official w3-hover-opacity"></i>
+              <i class="fa fa-instagram w3-hover-opacity"></i>
+              <i class="fa fa-snapchat w3-hover-opacity"></i>
+              <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+              <i class="fa fa-twitter w3-hover-opacity"></i>
+              <i class="fa fa-linkedin w3-hover-opacity"></i>
+              
+            </div>
+        </footer>
+    </body>
+</html>
